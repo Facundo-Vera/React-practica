@@ -1,0 +1,12 @@
+/*& Ejercicio 2: Estilos básicos en JSX
+Objetivo: Añadir estilos mediante clases CSS y estilos inline.
+
+Instrucciones:
+Crea un archivo CSS styles.css.
+Estiliza Header con una clase que cambie color y fuente.
+Añade un estilo inline a un p dentro de App para cambiar su tamaño. */
+
+.color-fuente{
+    color: rgb(0, 68, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

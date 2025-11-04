@@ -1,0 +1,24 @@
+.card {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #010101;
+  background: linear-gradient(135deg, #010101, #152D75);
+  color: rgb(226, 226, 226);
+}
+
+.card img {
+  width: 80px;
+}
+
+.card img:hover {
+  cursor: pointer;
+}
+

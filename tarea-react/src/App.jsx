@@ -1,7 +1,9 @@
 //* Crea un componente App que renderice Header y un párrafo p con texto descriptivo.
 
+import CounterApp from "./components/CounterApp";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ListProducts from "./components/ListProducts";
 import "./Css/styles.css";
 
 const App = () => {
@@ -40,6 +42,12 @@ const App = () => {
               </li>
             ))}
           </ul>
+        </div>
+        <div>
+          <CounterApp/>
+        </div>
+        <div>
+          <ListProducts/>
         </div>
       </main>
       <footer>

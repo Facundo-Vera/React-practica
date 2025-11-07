@@ -5,7 +5,8 @@ export const products = [
     description: "Procesador AMD Ryzen 5, 8GB RAM, 512GB SSD",
     price: 499.99,
     category: "Computadoras",
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    save:false,
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const products = [
     description: "Sonido envolvente 7.1 y micrófono desmontable",
     price: 129.99,
     category: "Accesorios",
-    image: "https://images.unsplash.com/photo-1580894908361-967195033215"
+    image: "https://images.unsplash.com/photo-1580894908361-967195033215",
+      save:false
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ export const products = [
     description: "Pantalla AMOLED 6.1'' y cámara triple",
     price: 799.99,
     category: "Celulares",
-    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      save:false
   },
   {
     id: 4,
@@ -29,6 +32,7 @@ export const products = [
     description: "144Hz, 1ms, resolución QHD",
     price: 299.99,
     category: "Monitores",
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      save:false
   }
 ];

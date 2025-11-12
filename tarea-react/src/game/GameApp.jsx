@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import CardGame from "./CardGame";
+import "../css/game.css";
+import NavBar from "./NavBar";
 
 const GameApp = () => {
   const [game, setGame] = useState([]);
@@ -27,11 +29,12 @@ const GameApp = () => {
     }
   };
   return (
-    <div>
-      <h1>¿Cuáles son los próximos juegos más esperados?</h1>
+     <div >
+    <div>      <NavBar/></div>
+      <h1>¿Cuáles son los juegos más populares en 2019?</h1>
       {
-        loading ? (<h3>Cargando...</h3>)  : (
-            <div>
+        loading ? (<h3 className="cargando">Cargando...</h3>)  : (
+            <div className="cards-container"> 
                 {game.map((game,index)=>( <CardGame game={game} key={index}/>))}
             </div>
         )
